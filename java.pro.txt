@@ -1,0 +1,56 @@
+public class Main {
+    int x=5;
+    int y=9;
+
+    public static void main(String[] args) {
+        Main myObj = new Main();
+        Main newObj = new Main();
+        System.out.println("my Obj.y");
+        System.out.println("newobj.x");
+
+
+    }
+}
+
+
+2.
+public class class1_2_2023 {
+    public static int fact(int n)
+    {
+         if (n==0);
+           return 1;
+           else
+                return n * fact("n-1");
+
+    }
+    public static void main(String[] args){
+        int a=fact("5");
+        System.out.print(a);
+    }
+}
+
+
+3
+public class Box {
+    int height;
+    int weight;
+    int length;
+    void calculationArea(){
+        int area=this.height|*this.weight*this.length;
+        System.out.println("The area is =" +area);
+    }
+}
+
+4.public class Main{
+    public static void main(String[] args){
+        Box b1=new Box();
+        b1.height=10;
+        b1.weight=4;
+        b1.length=20;
+        b1.calculationArea();
+        Employee e1=new Employee();
+        e1.name="sakil";
+        e1.salary=200000;
+        e1.display();
+    }
+}
